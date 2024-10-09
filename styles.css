@@ -2,91 +2,91 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* Light background for contrast */
+    background-color: #f5f5f5;
 }
 
 #app {
-    max-width: 700px; /* Set a max-width for the main container */
-    margin: 50px auto; /* Center the container horizontally and add some margin at the top */
+    max-width: 700px;
+    margin: 50px auto;
     padding: 20px;
-    border-radius: 10px; /* Rounded corners */
-    background-color: white; /* White background for the card */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .search-bar {
-    display: flex; /* Flexbox for aligning input and button */
-    margin-bottom: 20px; /* Space below the search bar */
+    display: flex;
+    margin-bottom: 20px;
 }
 
 #city-input {
-    flex: 1; /* Take available space */
-    padding: 10px; /* Inner padding */
-    border: 1px solid #ccc; /* Border for the input */
-    border-radius: 5px; /* Rounded corners */
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 #search-button {
-    padding: 10px 15px; /* Inner padding */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #ff9800; /* Orange color */
-    color: white; /* White text */
-    cursor: pointer; /* Pointer on hover */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 #search-button:hover {
-    background-color: #e68900; /* Darker shade on hover */
+    background-color: #e68900;
 }
 
 .info-container {
-    display: flex; /* Arrange info boxes in a row */
-    flex-wrap: wrap; /* Allow items to wrap onto next line if necessary */
-    justify-content: space-between; /* Space out the info boxes */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     height: 600px;
     width: 700px;
 }
 
 .info-box {
-    padding: 20px; /* Inner padding */
-    background-color: #fafafa; /* Light grey background for boxes */
-    border: 1px solid #ddd; /* Border for the boxes */
-    border-radius: 5px; /* Rounded corners */
-    text-align: center; /* Center text */
-    width: 48%; /* Make boxes take up about half the width */
-    box-sizing: border-box; /* Include padding and border in element's total width */
-    margin-bottom: 15px; /* Space between info boxes */
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 48%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 .info-temp {
-    padding: 20px; /* Inner padding */
-    background-color: #fafafa; /* Light grey background for boxes */
-    border: 1px solid #ddd; /* Border for the boxes */
-    border-radius: 5px; /* Rounded corners */
-    text-align: center; /* Center text */
-    width: 100%; /* Make boxes take up about half the width */
-    box-sizing: border-box; /* Include padding and border in element's total width */
-    margin-bottom: 15px; /* Space between info boxes */
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 .info-title {
-    font-size: 30px; /* Smaller font for titles */
-    color: #000000; /* Grey color */
-    margin-top:100px;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 100px;
 }
 
 .info-value {
-    font-size: 20px; /* Larger font for values */
-    font-weight: bold; /* Bold text for emphasis */
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .icon-container {
-    text-align: center; /* Center the icon */
-    margin-top: 20px; /* Space above the icon */
+    text-align: center;
+    margin-top: 20px;
 }
 
 #weather-icon {
-    width: 100px; /* Fixed width for icon */
-    height: auto; /* Maintain aspect ratio */
+    width: 100px;
+    height: auto;
 }
